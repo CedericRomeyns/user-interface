@@ -85,8 +85,8 @@ body {
 }
 
 .big {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex ;
+  flex-wrap: wrap ;
   justify-content: space-around;
   padding: 10px;
 }
@@ -94,7 +94,7 @@ body {
 .big button {
   border-radius: 25px;
   border-style: none;
-  width: 40%;
+  width: 30%;
   height: 25vw;
   margin: 10px;
 }
@@ -162,7 +162,7 @@ background-size: 35%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  margin: 10px;
   border-radius: 10px;
   border: none;
   width: 15vw;

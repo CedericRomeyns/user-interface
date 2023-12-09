@@ -17,8 +17,17 @@
       ></button>
     </div>
       <div class="admin">
-        <h1>Admin</h1>
+        <p>Admin</p>
       </div>
+      <div class="uitlog">
+        <p> ingelogd als: piet huysentruyt</p>
+        <button 
+          class="uitloggen"
+          onclick="window.location.href='login.html';"
+          title="uitloggen?"
+          ></button>
+        </div>
+  </div>
       <div class="small">
         <button
           class="opleidingen"
@@ -58,13 +67,20 @@
         ></button>
       
         </div>
-        <div class="uitlog">
-          <p> ingelogt als: piet huysentruyt</p>
-          <button 
-            class="uitloggen"
-            onclick="window.location.href='login.html';"
-            title="uitloggen?"
-            ></button>
-          </div>
+        <!--hier heb je de specifieke buttons uniek voor deze pagina-->
+        <div class="aanmakenEnOverzicht">
+          <div class="group-buttons">
+            <button
+            class="aanmaken"
+            onclick="window.location.href='opleidingenAanmaak.html';"
+            title="aanmaken"
+            ><p>opleidingen aanmaken</p></button>
+            <button 
+            class="overzicht"
+            onclick="window.location.href='opleidingenOverzicht.html';"
+            title="overzicht"
+            ><p>overzicht opleidingen</p></button>
+            </div>
+        </div>
 </body>
 </html>
