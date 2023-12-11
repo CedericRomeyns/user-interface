@@ -68,7 +68,6 @@ body {
 .small {
   display: flex;
   justify-content: space-around;
-  border: none;
   padding: 10px;
   margin: 0%;
   border-bottom: solid;
@@ -77,8 +76,8 @@ body {
 }
 
 .small button {
+  border:none;
   border-radius: 10px;
-  border-style: none;
   width: 18%;
   height: 5vw;
   margin: 1%;
@@ -102,6 +101,7 @@ body {
 }
 
 .big button {
+  border: none;
   border-radius: 25px;
   width: 30%;
   height: 25vw;
