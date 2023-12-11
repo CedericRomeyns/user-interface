@@ -158,6 +158,7 @@ background-size: 35%;
 }
 .group-buttons .aanmaken,
 .group-buttons .overzicht {
+  border: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
