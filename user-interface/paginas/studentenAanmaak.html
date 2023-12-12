@@ -94,7 +94,7 @@
     
                 <tr>
                     <td> <label for= "postcode">Postcode: </label></td>
-                    <td> <input id= "postcode" type="text" inputmode="numeric" maxlength="4" name="postcode" required title="vul hier de postcode in 'vb: 9000'""> </td>
+                    <td> <input id= "postcode" inputmode="numeric" maxlength="4" name="postcode" pattern="[0-9]" required title="vul hier de postcode in 'vb: 9000'""> </td>
                 </tr>
     
                 <tr>
@@ -132,7 +132,7 @@
 
                 <tr>
                   <td> <label for= "GSM">GSM: </label></td>
-                  <td> <input id= "GSM" name="GSM" type="number" maxlength="9" required></td>
+                  <td> <input id= "GSM" name="GSM" type="tel" maxlength="9" required></td>
               </tr>
               
                 

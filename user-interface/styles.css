@@ -83,7 +83,6 @@ body {
   margin: 1%;
   background-size: 30%;
   
-  
 }
 
 
@@ -98,6 +97,7 @@ body {
   flex-wrap: wrap ;
   justify-content: space-around;
   padding: 10px;
+  
 }
 
 .big button {
@@ -107,6 +107,7 @@ body {
   height: 25vw;
   margin: 10px;
 }
+
 
 h1 {
   text-align: left;
@@ -236,6 +237,4 @@ input[type="reset"]:hover {
   button > p{
     margin-top: 55%;
   }
-  
-  
 }
